@@ -17,7 +17,7 @@ FAF: Feature, Continuous, " How often do you have physical activity? " </br>
 TUE : Feature, Integer, " How much time do you use technological devices such as cell phone, videogames, television, computer and others? " </br>
 CALC : Feature, Categorical, " How often do you drink alcohol? " </br>
 MTRANS : Feature, Categorical, " Which transportation do you usually use? " </br>
-NObeyesdad : Target, Categorical, "Obesity level"  </br> " [SOURCE](https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels)
+NObeyesdad : Target, Categorical, "Obesity level"  </br> " [Source](https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels)
 
 ## Data Cleaning and Preparation
 ---
