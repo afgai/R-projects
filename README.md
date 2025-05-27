@@ -1,22 +1,23 @@
 # Obesity Levels and Indicators 
 
+(Data visualization plots at the end of file)
+
 ## Dataset Information and Source
 
-This dataset include data for the estimation of obesity levels in individuals from the countries of Mexico, Peru and Colombia, based on their eating habits and physical condition. The data contains 17 attributes and 2111 records, the records are labeled with the class variable NObesity (Obesity Level), that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 77% of the data was generated synthetically using the Weka tool and the SMOTE filter, 23% of the data was collected directly from users through a web platform.
+" This dataset include data for the estimation of obesity levels in individuals from the countries of Mexico, Peru and Colombia, based on their eating habits and physical condition. The data contains 17 attributes and 2111 records, the records are labeled with the class variable NObesity (Obesity Level), that allows classification of the data using the values of Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 77% of the data was generated synthetically using the Weka tool and the SMOTE filter, 23% of the data was collected directly from users through a web platform.
 
-FAVC : Feature, Binary, " Do you eat high caloric food frequently? "
-FCVC : Feature, Integer, " Do you usually eat vegetables in your meals? "
-NCP : Feature, Continuous, " How many main meals do you have daily? "
-CAEC : Feature, Categorical, " Do you eat any food between meals? "
-SMOKE : Feature, Binary, " Do you smoke? "
-CH2O: Feature, Continuous, " How much water do you drink daily? "
-SCC: Feature, Binary, " Do you monitor the calories you eat daily? "
-FAF: Feature, Continuous, " How often do you have physical activity? "
-TUE : Feature, Integer, " How much time do you use technological devices such as cell phone, videogames, television, computer and others? "
-
-CALC : Feature, Categorical, " How often do you drink alcohol? "
-MTRANS : Feature, Categorical, " Which transportation do you usually use? "
-NObeyesdad : Target, Categorical, "Obesity level" " [SOURCE](https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels)
+FAVC : Feature, Binary, " Do you eat high caloric food frequently? " </br>
+FCVC : Feature, Integer, " Do you usually eat vegetables in your meals? " </br>
+NCP : Feature, Continuous, " How many main meals do you have daily? " </br>
+CAEC : Feature, Categorical, " Do you eat any food between meals? " </br>
+SMOKE : Feature, Binary, " Do you smoke? " </br>
+CH2O: Feature, Continuous, " How much water do you drink daily? " </br>
+SCC: Feature, Binary, " Do you monitor the calories you eat daily? " </br>
+FAF: Feature, Continuous, " How often do you have physical activity? " </br>
+TUE : Feature, Integer, " How much time do you use technological devices such as cell phone, videogames, television, computer and others? " </br>
+CALC : Feature, Categorical, " How often do you drink alcohol? " </br>
+MTRANS : Feature, Categorical, " Which transportation do you usually use? " </br>
+NObeyesdad : Target, Categorical, "Obesity level"  </br> " [SOURCE](https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels)
 
 ## Data Cleaning and Preparation
 ---
